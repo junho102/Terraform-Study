@@ -152,17 +152,15 @@
         
     2. list 요소 중 value값이 포함되는지 검사하는 contains 함수를 사용하여 file_name 변수값을 체크하여 step0.txt ~ step6.txt 파일 중 이름 일치시 조건 만족 코드 작성
     <br>
-    <br>
-    ex) contains 함수 예시
+
         ```bash
+        # contains 함수 예시
         > contains(["a", "b", "c"], "a")
         true
         > contains(["a", "b", "c"], "d")
         false
-        ```
-        <br>
 
-        ```bash
+
         variable "file_name2" {
           default = "step0.txt"
         }
