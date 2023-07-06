@@ -160,7 +160,8 @@
         > contains(["a", "b", "c"], "d")
         false
         ```
-        
+        <br>
+
         ```bash
         variable "file_name2" {
           default = "step0.txt"
