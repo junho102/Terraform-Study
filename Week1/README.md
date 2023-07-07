@@ -35,7 +35,7 @@
         
         ```
         
-    2. data source를 통해 Ubuntu 20.04 최신 이미지 가져오기
+    2. data source를 통해 Ubuntu 22.04 최신 이미지 가져오기
         
         ```bash
         data "aws_ami" "latest_ubuntu_22_04" {
